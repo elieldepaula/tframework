@@ -1,0 +1,25 @@
+{
+    "name": "elieldepaula/tframework",
+    "description": "Um estudo sobre frameworks",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.0",
+        "symfony/http-foundation": "^3.3",
+        "symfony/routing": "^3.3",
+        "symfony/http-kernel": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eliel de Paula",
+            "email": "dev@elieldepaula.com.br",
+            "homepage": "http://elieldepaula.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "elieldepaula\\tframework\\": "src"
+        }
+}
+}
