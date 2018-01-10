@@ -8,4 +8,8 @@ class Teste {
 		//something
 	}
 
+	public function run() {
+		echo "Let's Code!";
+	}
+
 }
