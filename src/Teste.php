@@ -2,3 +2,10 @@
 
 
 // Este arquivo foi adicionado depois da criação do fork do Luiz.
+class Teste {
+
+	public function __construct() {
+		//something
+	}
+
+}
