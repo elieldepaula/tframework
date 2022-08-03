@@ -3,10 +3,8 @@
     "description": "Um estudo sobre frameworks",
     "type": "library",
     "require": {
-        "php": ">=5.5.0",
-        "symfony/http-foundation": "^3.3",
-        "symfony/routing": "^3.3",
-        "symfony/http-kernel": "^3.3"
+        "php": ">=7.4",
+        "nezamy/route": "dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -19,7 +17,8 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "elieldepaula\\tframework\\": "src"
+            "tframework\\": "src",
+            "": ""
         }
-}
+    }
 }
