@@ -3,8 +3,11 @@
     "description": "Um estudo sobre frameworks",
     "type": "library",
     "require": {
-        "php": ">=7.4",
-        "nezamy/route": "dev-master"
+        "php": ">=7.0",
+        "php-di/php-di": "^6.0",
+        "nikic/fast-route": "~0.5.0",
+        "mnapoli/silly": "^1.7",
+        "twig/twig": "^3.2"
     },
     "license": "MIT",
     "authors": [
@@ -17,7 +20,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "tframework\\": "src",
+            "Wpanel\\Core\\": "src/",
             "": ""
         }
     }
